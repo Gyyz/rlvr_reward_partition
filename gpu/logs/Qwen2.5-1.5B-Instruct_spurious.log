@@ -1,0 +1,12 @@
+/home/yuze/anaconda3/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/yuze/anaconda3/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:595: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/yuze/anaconda3/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:612: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+[Qwen2.5-1.5B-Instruct_spurious] base pass@1 = 0.440
+[Qwen2.5-1.5B-Instruct_spurious] step 20/80 kept=36/36 loss=-0.028 pass@1=0.380 (26.9s/step)
+[Qwen2.5-1.5B-Instruct_spurious] step 40/80 kept=36/36 loss=-0.059 pass@1=0.440 (27.0s/step)
+[Qwen2.5-1.5B-Instruct_spurious] step 60/80 kept=30/36 loss=-0.006 pass@1=0.440 (27.3s/step)
+[Qwen2.5-1.5B-Instruct_spurious] step 80/80 kept=24/36 loss=-0.115 pass@1=0.480 (27.2s/step)
+[Qwen2.5-1.5B-Instruct_spurious] DONE base=0.440 final=0.480

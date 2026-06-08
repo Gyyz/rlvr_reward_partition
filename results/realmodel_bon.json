@@ -1,0 +1,39 @@
+{
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "dataset": "gsm8k",
+  "n_problems": 24,
+  "N": 6,
+  "seed": 42,
+  "max_new_tokens": 170,
+  "overall": {
+    "pass@1": 0.3541666666666667,
+    "maj@N": 0.4583333333333333,
+    "bestN": 0.7083333333333334,
+    "elicitation": 0.10416666666666663,
+    "reward_design": 0.25000000000000006,
+    "naive": 0.3541666666666667,
+    "rd_fraction": 0.7058823529411766,
+    "n": 24
+  },
+  "strong_prior": {
+    "pass@1": 0.4999999999999999,
+    "maj@N": 0.6470588235294118,
+    "bestN": 1.0,
+    "elicitation": 0.1470588235294119,
+    "reward_design": 0.3529411764705882,
+    "naive": 0.5000000000000001,
+    "rd_fraction": 0.7058823529411763,
+    "n": 17
+  },
+  "weak_prior": {
+    "pass@1": 0.0,
+    "maj@N": 0.0,
+    "bestN": 0.0,
+    "elicitation": 0.0,
+    "reward_design": 0.0,
+    "naive": 0.0,
+    "rd_fraction": NaN,
+    "n": 7
+  },
+  "median_pass1_split": 0.16666666666666666
+}

@@ -1,0 +1,7 @@
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.3
+pandas>=2.0
+matplotlib>=3.7
+# statsmodels>=0.14  # optional, not required for core experiments
+# transformers>=4.41  # optional, only for run_mess_compute_all.sh BoN proxy

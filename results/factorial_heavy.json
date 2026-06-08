@@ -1,0 +1,75 @@
+{
+  "cells": [
+    {
+      "reward_informative": true,
+      "filtering": true,
+      "prior_strength": 0.8,
+      "mean_acc": 0.9107949218749998,
+      "std_acc": 0.0032058707810875948
+    },
+    {
+      "reward_informative": true,
+      "filtering": true,
+      "prior_strength": 0.35,
+      "mean_acc": 0.7263330078125,
+      "std_acc": 0.004881971498754766
+    },
+    {
+      "reward_informative": true,
+      "filtering": false,
+      "prior_strength": 0.8,
+      "mean_acc": 0.9108339843750001,
+      "std_acc": 0.002672942867586268
+    },
+    {
+      "reward_informative": true,
+      "filtering": false,
+      "prior_strength": 0.35,
+      "mean_acc": 0.72637890625,
+      "std_acc": 0.004104175229042366
+    },
+    {
+      "reward_informative": false,
+      "filtering": true,
+      "prior_strength": 0.8,
+      "mean_acc": 0.9311289062500001,
+      "std_acc": 0.003144547792517188
+    },
+    {
+      "reward_informative": false,
+      "filtering": true,
+      "prior_strength": 0.35,
+      "mean_acc": 0.2215673828125,
+      "std_acc": 0.013082281136994564
+    },
+    {
+      "reward_informative": false,
+      "filtering": false,
+      "prior_strength": 0.8,
+      "mean_acc": 0.9309296874999998,
+      "std_acc": 0.0030142877630239574
+    },
+    {
+      "reward_informative": false,
+      "filtering": false,
+      "prior_strength": 0.35,
+      "mean_acc": 0.19425390625000002,
+      "std_acc": 0.010942155648074143
+    }
+  ],
+  "effects": {
+    "intercept": 0.6940275878906248,
+    "A_reward": 0.12455761718749997,
+    "B_filtering": 0.0034284667968749877,
+    "C_prior": 0.22689428710937495,
+    "AB": -0.0034497070312500683,
+    "AC": -0.1346650390625,
+    "BC": -0.003388427734374991,
+    "ABC": 0.0033901367187499226
+  },
+  "interaction_ratio": 0.5935144545864408,
+  "additivity_test": "non-additive",
+  "decomposition_mode": "bounds",
+  "hi_prior": 0.8,
+  "lo_prior": 0.35
+}

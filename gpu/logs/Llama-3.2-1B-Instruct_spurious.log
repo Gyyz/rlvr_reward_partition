@@ -1,0 +1,10 @@
+/home/yuze/anaconda3/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/yuze/anaconda3/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:595: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+[Llama-3.2-1B-Instruct_spurious] base pass@1 = 0.500
+[Llama-3.2-1B-Instruct_spurious] step 20/80 kept=36/36 loss=-0.056 pass@1=0.380 (14.8s/step)
+[Llama-3.2-1B-Instruct_spurious] step 40/80 kept=36/36 loss=-0.012 pass@1=0.420 (14.6s/step)
+[Llama-3.2-1B-Instruct_spurious] step 60/80 kept=30/36 loss=0.038 pass@1=0.420 (14.7s/step)
+[Llama-3.2-1B-Instruct_spurious] step 80/80 kept=30/36 loss=-0.033 pass@1=0.460 (14.7s/step)
+[Llama-3.2-1B-Instruct_spurious] DONE base=0.500 final=0.460

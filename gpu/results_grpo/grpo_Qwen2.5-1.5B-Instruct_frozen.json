@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "reward": "frozen",
+  "base_acc": 0.44,
+  "final_acc": 0.44,
+  "curve": [
+    {
+      "step": 0,
+      "acc": 0.44
+    }
+  ]
+}

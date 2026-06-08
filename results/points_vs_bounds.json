@@ -1,0 +1,46 @@
+[
+  {
+    "prior_strength": 0.8,
+    "format_strength": 0.0,
+    "acc_frozen": 0.8028076171875,
+    "acc_random": 0.801220703125,
+    "acc_true": 0.8956298828125,
+    "fe_gain": 0.0928955078125,
+    "rd_gain": -7.324218750004441e-05,
+    "tot_gain": 0.09282226562499996,
+    "fe_ci": [
+      0.08817871093749996,
+      0.09737609863281259
+    ],
+    "rd_ci": [
+      -0.0034667968750000666,
+      0.003703002929687459
+    ],
+    "interaction_term": 0.094482421875,
+    "decomposition_mode": "points",
+    "label": "Point-identified\n(strong prior, ps=0.80)",
+    "expected_mode": "points"
+  },
+  {
+    "prior_strength": 0.25,
+    "format_strength": 0.0,
+    "acc_frozen": 0.250439453125,
+    "acc_random": 0.25048828125,
+    "acc_true": 0.51787109375,
+    "fe_gain": 0.005517578125000033,
+    "rd_gain": 0.26191406249999993,
+    "tot_gain": 0.26743164062499997,
+    "fe_ci": [
+      -0.001685791015625021,
+      0.012695312499999986
+    ],
+    "rd_ci": [
+      0.25385742187499993,
+      0.27138916015625003
+    ],
+    "interaction_term": 0.005468750000000022,
+    "decomposition_mode": "bounds",
+    "label": "Bounded\n(self-cons. crossover, ps=0.25)",
+    "expected_mode": "bounds"
+  }
+]

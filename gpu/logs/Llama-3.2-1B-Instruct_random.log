@@ -1,0 +1,10 @@
+/home/yuze/anaconda3/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/yuze/anaconda3/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:595: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+[Llama-3.2-1B-Instruct_random] base pass@1 = 0.500
+[Llama-3.2-1B-Instruct_random] step 20/80 kept=30/36 loss=-0.026 pass@1=0.400 (14.5s/step)
+[Llama-3.2-1B-Instruct_random] step 40/80 kept=36/36 loss=0.007 pass@1=0.420 (14.6s/step)
+[Llama-3.2-1B-Instruct_random] step 60/80 kept=36/36 loss=0.021 pass@1=0.420 (14.4s/step)
+[Llama-3.2-1B-Instruct_random] step 80/80 kept=36/36 loss=0.003 pass@1=0.480 (14.3s/step)
+[Llama-3.2-1B-Instruct_random] DONE base=0.500 final=0.480

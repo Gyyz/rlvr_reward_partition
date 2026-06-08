@@ -1,0 +1,38 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "reward": "spurious",
+  "base_acc": 0.44,
+  "final_acc": 0.48,
+  "curve": [
+    {
+      "step": 0,
+      "acc": 0.44
+    },
+    {
+      "step": 20,
+      "acc": 0.38
+    },
+    {
+      "step": 40,
+      "acc": 0.44
+    },
+    {
+      "step": 60,
+      "acc": 0.44
+    },
+    {
+      "step": 80,
+      "acc": 0.48
+    }
+  ],
+  "config": {
+    "steps": 80,
+    "B": 6,
+    "G": 6,
+    "lr": 1e-05,
+    "beta": 0.02,
+    "temp": 0.9,
+    "max_new": 200,
+    "n_eval": 50
+  }
+}
